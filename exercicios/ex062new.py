@@ -1,0 +1,12 @@
+termo = int(input('Primeiro termo: '))
+razao = int(input('Razão: '))
+controle = 1
+maistermo = 10
+total = 0
+while maistermo != 0:
+    total += maistermo
+    while controle <= total:
+        print(termo, end=' ')
+        termo += razao
+        controle += 1
+    maistermo = int(input('Mais termos? '))
